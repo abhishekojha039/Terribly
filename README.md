@@ -28,7 +28,6 @@ Dependencies
   
      import androidx.annotation.NonNull;
      import androidx.appcompat.app.AppCompatActivity;
-
      import android.app.AlertDialog;
      import android.app.ProgressDialog;
      import android.content.DialogInterface;
@@ -61,7 +60,6 @@ Dependencies
        
      
 
-    ![file](https://user-images.githubusercontent.com/49751993/89715878-91bc2500-d9c6-11ea-8097-2f25d74757b2.jpeg)
 
 
 
