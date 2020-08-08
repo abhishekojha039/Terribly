@@ -14,13 +14,13 @@ It is made with fill parent fuctionality to occupy according to inputs given by 
 All the designs are done in xml file of this project.
 Dependencies
 
-implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.12'
     implementation 'androidx.cardview:cardview:1.0.0'
-
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     
    Imports
