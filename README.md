@@ -25,7 +25,7 @@ Dependencies
     
    Imports
    
-   
+  
      import androidx.annotation.NonNull;
      import androidx.appcompat.app.AppCompatActivity;
 
