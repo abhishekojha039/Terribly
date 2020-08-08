@@ -59,8 +59,8 @@ Dependencies
      import android.os.AsyncTask;
        
      
-
-                                    ![file](https://user-images.githubusercontent.com/49751993/89715878-91bc2500-d9c6-11ea-8097-2f25d74757b2.jpeg)
+     
+ ![file](https://user-images.githubusercontent.com/49751993/89715878-91bc2500-d9c6-11ea-8097-2f25d74757b2.jpeg)
 
 
 
