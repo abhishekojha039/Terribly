@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter the number"
+        android:layout_gravity="center"
+        android:id="@+id/edt1"
+        android:gravity="center">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn1"
+        android:text="Click Me">
+
+    </Button>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    app:cardBackgroundColor="#F0F8FF"
+    android:layout_height="200dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt2"
+        android:scrollbars="vertical"
+        android:layout_height="200dp">
+
+    </TextView>
+</androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn2"
+        android:text="Click Me Again"
+        android:layout_height="40dp">
+
+    </Button>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d455b"
+        android:layout_alignParentLeft="true" >
+
+        <HorizontalScrollView
+            android:id="@+id/hscrll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:id="@+id/table_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+                </TableLayout>
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
